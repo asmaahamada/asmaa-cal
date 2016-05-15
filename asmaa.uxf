@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>20</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>0</y>
+      <w>120</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>company
+--
+a
+b
+c
+--
+getA()
+getB()
+getc()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>20</y>
+      <w>140</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>employee</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>60</y>
+      <w>340</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+&lt; works for
+</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+</diagram>
